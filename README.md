@@ -46,3 +46,41 @@ Endpoints:
 - `POST /assessment` (triage recommendation + available slots)
 - `POST /booking` (booking confirmation)
 
+
+## Frontend Technical Stack :
+
+Next.js ,Tailwind.css,Typescript.
+
+**Next.js**
+
+Chosen for its built-in routing, server-side rendering, and great developer experience.
+Makes it easy to scale and structure the app cleanly.
+
+**TypeScript**
+
+Adds type safety, which helps prevent bugs and improves maintainability.
+Makes the codebase easier to understand and refactor over time.
+
+**Tailwind CSS**
+
+Speeds up UI development with utility classes.
+Keeps styling consistent without writing a lot of custom CSS.
+
+**Running the Frontend**
+Install dependencies
+## Bash: 
+cd frontend
+npm install 
+npx create-next-app@latest frontend --typescript --use-npm --eslint --src-dir --app --import-alias "@/*"
+
+**Run development server**
+npm run dev
+
+**Build for production**
+npm run build
+npm start
+
+The app will usually run on:
+**http://localhost:3000**
+
+
