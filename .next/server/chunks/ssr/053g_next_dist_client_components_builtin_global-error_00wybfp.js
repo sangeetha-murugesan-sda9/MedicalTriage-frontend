@@ -1,0 +1,3 @@
+module.exports=[16987,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(85279);a.n(d("[project]/Desktop/Kry/MedicalTriageBookingApp/frontend/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},80486,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(85279);a.n(d("[project]/Desktop/Kry/MedicalTriageBookingApp/frontend/node_modules/next/dist/client/components/builtin/global-error.js"))},92704,a=>{"use strict";a.i(16987);var b=a.i(80486);a.n(b)},52142,a=>{a.n(a.i(92704))}];
+
+//# sourceMappingURL=053g_next_dist_client_components_builtin_global-error_00wybfp.js.map

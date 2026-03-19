@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/ragav/Desktop/Kry/MedicalTriageBookingApp/frontend/src/app/page.tsx"],"sourcesContent":["import TriageApp from \"./components/TriageApp\";\n\nexport default function Home() {\n  return <TriageApp />;\n}\n"],"names":["Home","TriageApp"],"mappings":";;;;;;;;;;;;AAEe,SAASA;IACtB,qBAAO,uSAACC;;;;;AACV"}}]
+}

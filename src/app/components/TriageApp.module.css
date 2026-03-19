@@ -1,0 +1,277 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+  background: radial-gradient(1200px 600px at 20% 0%, #e9f2ff, transparent),
+    radial-gradient(900px 500px at 90% 10%, #fff1f3, transparent),
+    #ffffff;
+}
+
+.card {
+  width: 100%;
+  max-width: 900px;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 18px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.06);
+}
+
+.title {
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+.wait {
+  color: #0b5cff;
+}
+
+.subTitle {
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 16px;
+}
+
+.progress {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.questionTitle {
+  font-size: 22px;
+  line-height: 1.25;
+  font-weight: 650;
+  margin: 0;
+}
+
+.recoTitle {
+  font-size: 24px;
+  font-weight: 750;
+  margin: 0;
+}
+
+.recoBody {
+  color: rgba(0, 0, 0, 0.72);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.sectionTitle {
+  font-size: 16px;
+  font-weight: 650;
+  margin-top: 6px;
+}
+
+.fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.legend {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 8px;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.option {
+  display: flex;
+  gap: 12px;
+  padding: 14px 14px;
+  border-radius: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+  cursor: pointer;
+  transition: transform 120ms ease, border-color 120ms ease, background 120ms ease;
+}
+
+.option:hover {
+  transform: translateY(-1px);
+  border-color: rgba(11, 92, 255, 0.35);
+}
+
+.option input {
+  margin-top: 3px;
+  accent-color: #0b5cff;
+}
+
+.optionLabel {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.buttonRow {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.buttonRowBetween {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+.primaryButton,
+.secondaryButton,
+.slotButton,
+.slotButtonSelected,
+.cancelButton {
+  border-radius: 14px;
+  padding: 12px 14px;
+  font-weight: 700;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  transition: background 120ms ease, transform 120ms ease, border-color 120ms ease;
+}
+
+.primaryButton {
+  background: #0b5cff;
+  border-color: #0b5cff;
+  color: white;
+}
+
+.primaryButton:hover {
+  transform: translateY(-1px);
+}
+
+.primaryButton:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.secondaryButton {
+  background: #ffffff;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.secondaryButton:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.slotList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.slotButton,
+.slotButtonSelected {
+  text-align: left;
+  background: #ffffff;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.slotButton:hover {
+  border-color: rgba(11, 92, 255, 0.35);
+}
+
+.slotButtonSelected {
+  background: rgba(11, 92, 255, 0.08);
+  border-color: rgba(11, 92, 255, 0.65);
+}
+
+.cancelWrap {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 10;
+}
+
+.cancelButton {
+  background: rgba(0, 0, 0, 0.04);
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.cancelButton:hover {
+  border-color: rgba(0, 0, 0, 0.18);
+}
+
+.errorBox {
+  background: rgba(255, 62, 62, 0.08);
+  border: 1px solid rgba(255, 62, 62, 0.22);
+  color: rgba(160, 0, 0, 0.95);
+  padding: 12px 14px;
+  border-radius: 14px;
+  line-height: 1.4;
+}
+
+.infoBox {
+  background: rgba(11, 92, 255, 0.06);
+  border: 1px solid rgba(11, 92, 255, 0.18);
+  color: rgba(0, 46, 124, 0.95);
+  padding: 12px 14px;
+  border-radius: 14px;
+  line-height: 1.45;
+}
+
+.mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+
+.loadingRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.loadingText {
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 650;
+}
+
+.spinner {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  border-top-color: #0b5cff;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 16px;
+  }
+  .card {
+    padding: 18px;
+  }
+  .title {
+    font-size: 24px;
+  }
+  .recoTitle {
+    font-size: 22px;
+  }
+}
+
