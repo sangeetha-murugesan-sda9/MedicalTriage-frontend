@@ -69,8 +69,8 @@ Keeps styling consistent without writing a lot of custom CSS.
 **Running the Frontend**
 Install dependencies
 ## Bash: 
-cd frontend
 npm install 
+
 npx create-next-app@latest frontend --typescript --use-npm --eslint --src-dir --app --import-alias "@/*"
 
 **Run development server**
