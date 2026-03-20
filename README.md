@@ -68,6 +68,14 @@ Keeps styling consistent without writing a lot of custom CSS.
 
 **Running the Frontend**
 Install dependencies
+node: '^20.19.0,
+npm: '10.8.2'
+next": 16.2.0,
+react: 19.2.4,
+react-dom: 19.2.4
+tailwindcss: 4.2.2,
+typescript": 5
+  
 ## Bash: 
 npm install 
 
@@ -83,4 +91,11 @@ npm start
 The app will usually run on:
 **http://localhost:3000**
 
+**Improvements to be done if given more time**
+
+1. Design can be improved, more user friendly.
+2. AI chatbot can be integrated.
+
+
+ 
 
